@@ -13,4 +13,6 @@ pkg install php -y
 
 git clone https://github.com/GALAXY-IP/Spamwaphp
 
+cd Spamwaphp
+
 php spam.php
