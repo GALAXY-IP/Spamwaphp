@@ -11,6 +11,6 @@ pkg update && pkg upgrade
 
 pkg install php -y
 
-git clone https://github.com/GALAXY-IP/Spamwaphp/spam.php
+git clone https://github.com/GALAXY-IP/Spamwaphp
 
 php spam.php
