@@ -236,7 +236,7 @@ echo color("red","⣴⣾⣿⣿⣿⣿⣷⣦
 ⣧°⣀⡾⢷⣀°⣼
  ⡏⢽⢴⡦⡯⢹ 
  ⠙⢮⣙⣋⡵⠋");
-echo color("green"," [ Rizky.088 ]   ");
+echo color("green"," [ Anonymous ]   ");
 echo color("nevy","Version ".$versi."\n\n\n");
 
 echo color("green"," 1: Whatsapp\n");
@@ -252,7 +252,7 @@ if ($aaa1 == 2) {
 }
 if ($aaa1 == 3) {
   clear();
-  $url = "https://wa.me/6282320884089?text=Halo%20saya%20ingin%20berdonasi%20kepada%20Anda";
+  $url = "https://wa.me/628123456789?text=Halo%20saya%20ingin%20berdonasi%20kepada%20Anda";
   shell_exec("termux-open-url $url");
   echo color("green","???");
   exit();
@@ -265,7 +265,7 @@ else {
 
 whatsapp:
 clear();
-echo shell_exec("cowsay -f eyes 'Code By HanX' | lolcat 2>&1");
+echo shell_exec("cowsay -f eyes 'Code By Anonymous' | lolcat 2>&1");
 echo color("green","\n\n\nEnter Phone Number (Using 08) : ");
 //$nomor = '083117295526';
 $nomor = trim(fgets(STDIN)); #08xxx
